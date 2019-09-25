@@ -1,0 +1,94 @@
+body {background: rgba(229, 221, 236, 0.473)
+      
+}
+div{
+   font-family: verdana;
+}
+
+h1{
+    text-align: center;
+}
+            p.right {
+                text-align: right;
+                
+            }
+            p.center {
+                 text-align: center;
+            }
+
+            p#h1 { 
+            color: rgb(160, 20, 20);
+            }
+
+            p#h2 { 
+            color: rgb(243, 237, 237);
+            }
+
+            p {
+                background: rgb(52, 177, 108);
+                padding: 10px;
+               
+               
+            }
+            p.um-valor {
+                border-radius: 5px;
+            }
+
+            img.darksouls {
+                width: 100%;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            div.div1 {
+                width: 900px;
+            } 
+
+            .warapper {overflow: auto; } 
+            #main {margin-left: 4px; }
+            #leftsidebar {
+                float: none;
+                width: auto;
+            }
+            #menulist {
+                margin: 0;
+                padding: 0;
+            }
+
+            .menulist{
+                    background: #CDF0F6;
+                    border: 1px solid #CDF0F6;
+                    border-radius: 4px;
+                    list-style: none;
+                    margin: 4px;
+                    padding: 2px;
+                    
+            }
+
+            @media screnn and (min-width: 480px ){
+                #leftsidebar { width: 200px; float: left;}
+                #main {margin-left: 216px;}
+            }
+
+           h2.container {
+                display: grid | inline-grid;
+              }
+
+            img.darksouls {
+                justify-self: start | end | center | stretch;
+              }
+              
+              form.cadastro{
+                   text-align: center;
+              }
+              div.form-group {
+                   
+                  text-align: center;
+              }
+              
+              imput{
+                  
+                   text-align: center;
+              }
